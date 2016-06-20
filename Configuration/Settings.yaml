@@ -1,0 +1,17 @@
+TYPO3:
+  Flow:
+    Flow:
+      object:
+        excludeClasses:
+         'beberlei.assert' : ['Assert\\.*']
+
+Medialib:
+  PropTypes:
+    validationImplementation:
+      string: 'Medialib\PropTypes\Domain\Model\StringPropType'
+      number: 'Medialib\PropTypes\Domain\Model\NumberPropType'
+      bool: 'Medialib\PropTypes\Domain\Model\BoolPropType'
+      array: 'Medialib\PropTypes\Domain\Model\ArrayPropType'
+      object: 'Medialib\PropTypes\Domain\Model\ObjectPropType'
+      func: 'Medialib\PropTypes\Domain\Model\FuncPropType'
+      any: 'Medialib\PropTypes\Domain\Model\AnyPropType'

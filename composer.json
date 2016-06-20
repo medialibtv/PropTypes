@@ -1,0 +1,14 @@
+{
+    "name": "medialib/proptypes",
+    "type": "typo3-flow-package",
+    "description": "PropType validation for PHP project inspired by React",
+    "require": {
+        "typo3/flow": "^2.3",
+        "beberlei/assert": "^2.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Medialib\\PropTypes": "Classes"
+        }
+    }
+}
