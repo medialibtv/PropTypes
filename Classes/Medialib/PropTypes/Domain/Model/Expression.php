@@ -24,6 +24,7 @@ class Expression
     const T_NUMBER = 'number';
     const T_OBJECT = 'object';
     const T_FUNC = 'func';
+    const T_BOOL = 'bool';
     const T_ANY = 'any';
 
 
@@ -49,6 +50,7 @@ class Expression
             self::T_NUMBER,
             self::T_OBJECT,
             self::T_FUNC,
+            self::T_BOOL,
             self::T_ANY,
             self::T_ONE_OF,
             self::T_ONE_OF_TYPE,
