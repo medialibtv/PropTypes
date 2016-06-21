@@ -72,6 +72,17 @@ class ValidationService
             if (isset($properties[$propertyName])) {
                 continue;
             }
+            switch ($propertyValue) {
+                case 'true':
+                    $propertyValue = true;
+                    break;
+                case 'false':
+                    $propertyValue = false;
+                    break;
+                case 'null':
+                    $propertyValue = null;
+                    break;
+            }
             $properties[$propertyName] = $propertyValue;
         }
 
