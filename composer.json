@@ -3,7 +3,7 @@
     "type": "typo3-flow-package",
     "description": "PropType validation for PHP project inspired by React",
     "require": {
-        "typo3/flow": "^2.3",
+        "typo3/flow": "^2.3 || ^3.0",
         "beberlei/assert": "^2.5"
     },
     "autoload": {
